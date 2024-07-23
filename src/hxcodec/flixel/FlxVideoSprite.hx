@@ -23,7 +23,7 @@ class FlxVideoSprite extends FlxSprite
 
 		makeGraphic(1, 1, FlxColor.TRANSPARENT);
 
-		bitmap = new Video();
+		bitmap = new FlxVideo();
 		bitmap.alpha = 0;
 		bitmap.onOpening.add(function()
 		{
