@@ -7,7 +7,6 @@ import flixel.util.FlxColor;
 
 import sys.FileSystem;
 import hxcodec.openfl.Video;
-import hxcodec.flixel.FlxVideo;
 
 /**
  * This class allows you to play videos using sprites (FlxSprite).
@@ -15,7 +14,7 @@ import hxcodec.flixel.FlxVideo;
 class FlxVideoSprite extends FlxSprite
 {
 	// Variables
-	public var bitmap(default, null):FlxVideo;
+	public var bitmap(default, null):Video;
 
 	public function new(x:Float = 0, y:Float = 0):Void
 	{
@@ -23,7 +22,7 @@ class FlxVideoSprite extends FlxSprite
 
 		makeGraphic(1, 1, FlxColor.TRANSPARENT);
 
-		bitmap = new FlxVideo();
+		bitmap = new Video();
 		bitmap.alpha = 0;
 		bitmap.onOpening.add(function()
 		{
