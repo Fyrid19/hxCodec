@@ -17,7 +17,7 @@ A Haxe library which adds native video playback on [HaxeFlixel](https://haxeflix
 
     You can also install it through `Git` to get the latest changes.
     ```bash
-    haxelib git hxCodec https://github.com/polybiusproxy/hxCodec
+    haxelib git hxCodec https://github.com/Fyrid19/hxCodec
     ```
 
 2. Add this code in the ***project.xml*** file.
